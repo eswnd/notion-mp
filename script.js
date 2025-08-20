@@ -22,11 +22,11 @@ $(function () {
     "Moon"
   ];
   const trackNames = [
-    "柏鹿 - 鱼水间",
-    "郝祥海 - 富士山在等一片云",
-    "溱桑 - 失重",
-    "花房种鱼FaFa - 异味",
-    "花房种鱼FaFa - Moon"
+    "柏鹿 - 广播剧《有名》",
+    "郝祥海 - 广播剧《台风眼》",
+    "溱桑 - 广播剧《City of Angels》",
+    "花房种鱼FaFa - 广播剧《自由行》",
+    "花房种鱼FaFa - 广播剧《自由行》"
   ];
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
   const trackUrl = [    
