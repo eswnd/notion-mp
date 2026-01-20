@@ -15,26 +15,26 @@ $(function () {
   const playPreviousTrackButton = $("#play-previous");
   const playNextTrackButton = $("#play-next");
   const albums = [
-    "鱼水间",
+    "Moon",
     "富士山在等一片云",
     "失重",
     "异味",
-    "Moon"
+    "鱼水间"
   ];
   const trackNames = [
-    "柏鹿 - 广播剧《有名》",
+    "花房种鱼FaFa - 广播剧《自由行》",
     "郝祥海 - 广播剧《台风眼》",
     "溱桑 - 广播剧《City of Angels》",
     "花房种鱼FaFa - 广播剧《自由行》",
-    "花房种鱼FaFa - 广播剧《自由行》"
+    "柏鹿 - 广播剧《有名》"
   ];
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
   const trackUrl = [    
- "https://dl.dropbox.com/scl/fi/8p4jzn0a9vjex99rzh2mt/.mp3?rlkey=7ztltq182i1emhof172m9zbq8&st=hennv5q0",
+ "https://dl.dropbox.com/scl/fi/0bt01vmk632jg2utyo9eq/moon.mp3?rlkey=3rzyzp4r641jwozc14cvum770&st=2f5jyyu1&",
     "https://dl.dropbox.com/scl/fi/tyk9fgn9bsz0m31glns2z/.mp3?rlkey=aq9ax9yuegk4r4i63xar2qxq3&st=5bzgzf9h&",
     "https://dl.dropbox.com/scl/fi/afew5qrybpb61gxqw8ros/.mp3?rlkey=8htzg2z73y0amhve359jb7gww&st=ln66xbdp&",
     "https://dl.dropbox.com/scl/fi/urjqb06e5w3li1bt0z5fm/.mp3?rlkey=ad54q8hm3lkb96k3utxm4si05&st=n2zcat2m&",
-    "https://dl.dropbox.com/scl/fi/0bt01vmk632jg2utyo9eq/moon.mp3?rlkey=3rzyzp4r641jwozc14cvum770&st=2f5jyyu1&"
+    "https://dl.dropbox.com/scl/fi/8p4jzn0a9vjex99rzh2mt/.mp3?rlkey=7ztltq182i1emhof172m9zbq8&st=hennv5q0"
   ];
 
   let bgArtworkUrl,
