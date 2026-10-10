@@ -188,8 +188,21 @@ $(function () {
   }
 
   function selectTrack(flag) {
-    if (flag == 0 || flag == 1) ++currIndex;
-    else --currIndex;
+  if (flag == 0 || flag == 1) {
+    currIndex++;
+  } else {
+    currIndex--;
+  }
+
+  // Loop back to the first track after the last track
+  if (currIndex >= trackUrl.length) {
+    currIndex = 0;
+  }
+
+  // Loop back to the last track when going backward from the first
+  if (currIndex < 0) {
+    currIndex = trackUrl.length - 1;
+  }
 
     if (currIndex > -1 && currIndex < albumArtworks.length) {
       if (flag == 0) i.attr("class", "fa fa-play");
