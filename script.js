@@ -39,15 +39,15 @@ $(function () {
   ];
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9"];
   const trackUrl = [    
- "https://www.dropbox.com/scl/fi/urjqb06e5w3li1bt0z5fm/.mp3?rlkey=ad54q8hm3lkb96k3utxm4si05&st=2xoqod1r&dl=0", //追月亮的人
-    "https://dl.dropbox.com/scl/fi/tyk9fgn9bsz0m31glns2z/.mp3?rlkey=aq9ax9yuegk4r4i63xar2qxq3&st=5bzgzf9h&", //富士山
-    "https://dl.dropbox.com/scl/fi/afew5qrybpb61gxqw8ros/.mp3?rlkey=8htzg2z73y0amhve359jb7gww&st=ln66xbdp&", //失重
-    "https://dl.dropbox.com/scl/fi/0bt01vmk632jg2utyo9eq/moon.mp3?rlkey=3rzyzp4r641jwozc14cvum770&st=2f5jyyu1&", //Moon
-    "https://dl.dropbox.com/scl/fi/urjqb06e5w3li1bt0z5fm/.mp3?rlkey=ad54q8hm3lkb96k3utxm4si05&st=n2zcat2m&", //异味
-    "https://www.dropbox.com/scl/fi/a896oqc0tfnkn3p0gay7x/.mp3?rlkey=ytrlr9x02c446j4vbsll393mw&st=r0ejz0h1&dl=0", //色相
-    "https://www.dropbox.com/scl/fi/s42mflla1oyftouudqhuk/.mp3?rlkey=4ab3hsx1psqmfaswbhhdimgyw&st=yyltm99j&dl=0" //湖中梦
-    "https://dl.dropbox.com/scl/fi/8p4jzn0a9vjex99rzh2mt/.mp3?rlkey=7ztltq182i1emhof172m9zbq8&st=hennv5q0", //鱼水间
-    "https://www.dropbox.com/scl/fi/mueujlti6qz02zpubtsz9/.mp3?rlkey=hdjchjtmt6zqs8p7o15gtd1v2&st=3ohs8ilr&dl=0" //恋爱合约
+ "https://dl.dropbox.com/scl/fi/i7yvubxgzjoqkfr873weu/.mp3?rlkey=fan3816wuzyvuup03vqwkncd6&st=6e2u4yhw&dl=0",
+    "https://dl.dropbox.com/scl/fi/tyk9fgn9bsz0m31glns2z/.mp3?rlkey=aq9ax9yuegk4r4i63xar2qxq3&st=5bzgzf9h&",
+    "https://dl.dropbox.com/scl/fi/afew5qrybpb61gxqw8ros/.mp3?rlkey=8htzg2z73y0amhve359jb7gww&st=ln66xbdp&",
+    "https://dl.dropbox.com/scl/fi/0bt01vmk632jg2utyo9eq/moon.mp3?rlkey=3rzyzp4r641jwozc14cvum770&st=2f5jyyu1&",
+    "https://dl.dropbox.com/scl/fi/urjqb06e5w3li1bt0z5fm/.mp3?rlkey=ad54q8hm3lkb96k3utxm4si05&st=n2zcat2m&",
+    "https://dl.dropbox.com/scl/fi/a896oqc0tfnkn3p0gay7x/.mp3?rlkey=ytrlr9x02c446j4vbsll393mw&st=r0ejz0h1&dl=0",
+    "https://dl.dropbox.com/scl/fi/s42mflla1oyftouudqhuk/.mp3?rlkey=4ab3hsx1psqmfaswbhhdimgyw&st=yyltm99j&dl=0",
+    "https://dl.dropbox.com/scl/fi/8p4jzn0a9vjex99rzh2mt/.mp3?rlkey=7ztltq182i1emhof172m9zbq8&st=hennv5q0",
+    "https://dl.dropbox.com/scl/fi/mueujlti6qz02zpubtsz9/.mp3?rlkey=hdjchjtmt6zqs8p7o15gtd1v2&st=3ohs8ilr&dl=0"
   ];
 
   let bgArtworkUrl,
