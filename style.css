@@ -350,8 +350,8 @@ body {
   }
 
   #album-art {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
     top: -25px;
   }
@@ -401,8 +401,8 @@ body {
   }
 
   #album-art {
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     margin-left: 15px;
     top: -15px;
   }
