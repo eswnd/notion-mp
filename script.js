@@ -274,6 +274,10 @@ $(function () {
 
     $(audio).on("timeupdate", updateCurrTime);
 
+$(audio).on("ended", function () {
+  selectTrack(1);
+});
+
     playPreviousTrackButton.on("click", function () {
       selectTrack(-1);
     });
