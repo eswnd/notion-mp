@@ -430,3 +430,40 @@ body {
   }
 }
 
+
+/* Keep the page background transparent on all devices */
+html,
+body {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+#player-container,
+#player {
+  background: transparent !important;
+}
+
+/* Preserve the original white player card */
+#player-content {
+  background-color: #fff !important;
+}
+
+/* Keep the track information panel's original color */
+#player-track {
+  background-color: #fff7f7 !important;
+}
+
+/* Shorter player card on mobile */
+@media screen and (max-width: 480px) {
+  #player-container {
+    height: 85px;
+  }
+
+  #player-content {
+    height: 85px;
+  }
+
+  #player-controls .control {
+    padding-top: 7px;
+  }
+}
