@@ -16,6 +16,7 @@ $(function () {
   const playNextTrackButton = $("#play-next");
   const albums = [
     "追月亮的人",
+    "Last Night",
     "富士山在等一片云",
     "失重",
     "Moon",
@@ -27,6 +28,7 @@ $(function () {
   ];
   const trackNames = [
     "文森 - 广播剧《楚天以南》",
+    "俞梦乐 - 广播剧《台风眼》",
     "郝祥海 - 广播剧《台风眼》",
     "溱桑 - 广播剧《City of Angels》",
     "花房种鱼FaFa - 广播剧《自由行》",
@@ -40,6 +42,7 @@ $(function () {
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9"];
   const trackUrl = [    
  "https://dl.dropbox.com/scl/fi/i7yvubxgzjoqkfr873weu/.mp3?rlkey=fan3816wuzyvuup03vqwkncd6&st=6e2u4yhw&dl=0",
+    "https://dl.dropbox.com/scl/fi/8xorblvio3n3qq5n9h584/Last-Night.mp3?rlkey=jktgq37gfaabs0nr20zomv5a0&st=31osn29i&dl=0",
     "https://dl.dropbox.com/scl/fi/tyk9fgn9bsz0m31glns2z/.mp3?rlkey=aq9ax9yuegk4r4i63xar2qxq3&st=5bzgzf9h&",
     "https://dl.dropbox.com/scl/fi/afew5qrybpb61gxqw8ros/.mp3?rlkey=8htzg2z73y0amhve359jb7gww&st=ln66xbdp&",
     "https://dl.dropbox.com/scl/fi/0bt01vmk632jg2utyo9eq/moon.mp3?rlkey=3rzyzp4r641jwozc14cvum770&st=2f5jyyu1&",
