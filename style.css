@@ -456,11 +456,11 @@ body {
 /* Shorter player card on mobile */
 @media screen and (max-width: 480px) {
   #player-container {
-    height: 85px;
+    height: 80px;
   }
 
   #player-content {
-    height: 85px;
+    height: 80px;
   }
 
   #player-controls .control {
