@@ -21,6 +21,7 @@ $(function () {
     "失重",
     "Moon",
     "异味",
+    "燕回故人归",
     "色相",
     "湖中梦",
     "鱼水间",
@@ -33,13 +34,14 @@ $(function () {
     "溱桑 - 广播剧《City of Angels》",
     "花房种鱼FaFa - 广播剧《自由行》",
     "花房种鱼FaFa - 广播剧《自由行》",
+    "Babystop_山竹 - 广播剧《太傅他人人喊打》",
     "柏鹿 - 广播剧《娑婆》",
     "MasonLin - 广播剧《爱人花碑》",
     "柏鹿 - 广播剧《有名》",
     "大C - 广播剧《和影帝协议结婚之后》"
     
   ];
-  const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9"];
+  const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "_11"];
   const trackUrl = [    
  "https://dl.dropbox.com/scl/fi/i7yvubxgzjoqkfr873weu/.mp3?rlkey=fan3816wuzyvuup03vqwkncd6&st=6e2u4yhw&dl=0",
     "https://dl.dropbox.com/scl/fi/8xorblvio3n3qq5n9h584/Last-Night.mp3?rlkey=jktgq37gfaabs0nr20zomv5a0&st=31osn29i&dl=0",
@@ -47,6 +49,7 @@ $(function () {
     "https://dl.dropbox.com/scl/fi/afew5qrybpb61gxqw8ros/.mp3?rlkey=8htzg2z73y0amhve359jb7gww&st=ln66xbdp&",
     "https://dl.dropbox.com/scl/fi/0bt01vmk632jg2utyo9eq/moon.mp3?rlkey=3rzyzp4r641jwozc14cvum770&st=2f5jyyu1&",
     "https://dl.dropbox.com/scl/fi/urjqb06e5w3li1bt0z5fm/.mp3?rlkey=ad54q8hm3lkb96k3utxm4si05&st=n2zcat2m&",
+    “https://dl.dropbox.com/scl/fi/3tbrlxtlbo4ik40snew3m/.mp3?rlkey=79l5bkoytbniefh27ab2hzf9k&st=nuk6r55o&dl=0",
     "https://dl.dropbox.com/scl/fi/a896oqc0tfnkn3p0gay7x/.mp3?rlkey=ytrlr9x02c446j4vbsll393mw&st=r0ejz0h1&dl=0",
     "https://dl.dropbox.com/scl/fi/s42mflla1oyftouudqhuk/.mp3?rlkey=4ab3hsx1psqmfaswbhhdimgyw&st=yyltm99j&dl=0",
     "https://dl.dropbox.com/scl/fi/8p4jzn0a9vjex99rzh2mt/.mp3?rlkey=7ztltq182i1emhof172m9zbq8&st=hennv5q0",
