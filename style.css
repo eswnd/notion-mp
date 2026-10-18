@@ -453,17 +453,27 @@ body {
   background-color: #fff7f7 !important;
 }
 
-/* Shorter player card on mobile */
+/* Reduce player height on mobile */
 @media screen and (max-width: 480px) {
   #player-container {
-    height: 80px;
+    height: 82px;
   }
 
-  #player-content {
-    height: 80px;
+  #player-track {
+    padding-top: 8px;
+    padding-bottom: 6px;
   }
 
-  #player-controls .control {
-    padding-top: 7px;
+  #player-track.active {
+    top: -76px;
+  }
+
+  #player-controls {
+    height: 82px;
+  }
+
+  .control {
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
